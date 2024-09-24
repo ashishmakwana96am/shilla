@@ -405,6 +405,7 @@ text-align: center;
   z-index: 3;
   position: relative;
   width: 100%;
+  height: 505px;
 }
 .scaneAr-imgdiv .top-left-img ,.arActivation-scaneAr-imgdiv .top-left-img{ 
      position: absolute;
@@ -539,9 +540,10 @@ text-align: center;
     font-size: 23px;
     line-height: 34px;
   }
-  .scaneAr-imgdiv {
+  .scaneAr-imgdiv ,.scanner-scan {
     height: 475px;
   }
+  
 }
 
 @media (max-width:320px){
