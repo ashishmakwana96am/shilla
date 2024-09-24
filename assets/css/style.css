@@ -374,7 +374,7 @@ text-align: center;
 }
 .scaneAr-imgdiv{
   position: relative;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   background-image: url('../images/Rectangle\ 3919.png');
   background-size: cover;
   background-size: 100% 100%;
@@ -437,6 +437,7 @@ text-align: center;
   line-height: 16px;
   font-weight: 400;
   text-align: center;
+  margin-top: 20px;
 }
 .qr-scanner{
   position: absolute;
