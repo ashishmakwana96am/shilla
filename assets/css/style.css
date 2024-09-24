@@ -519,21 +519,12 @@ text-align: center;
 
 
 @media (max-width:575px){
-
- 
    .start-btn {
     padding-top: 20px;
   }
 
 }
-@media (max-width:425px){
-  /* .owl-nav .prev-right {
-    top: 72%;
-  }
-  .owl-nav .prev-left{
-    top: 72%;
-  } */
-}
+
 @media (max-width:399px){
   .container {
     max-width: 353px !important;
@@ -543,13 +534,7 @@ text-align: center;
 }
 }
 @media (max-width:375px){
- 
-  /* .owl-nav .prev-right {
-    top: 69%;
-  }
-  .owl-nav .prev-left{
-    top: 69%;
-  } */
+
   .huntlist-sec .title {
     font-size: 36px;
     line-height: 42px;
