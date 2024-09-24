@@ -112,6 +112,7 @@ margin-top: 10px;
 font-size: 20px;
 line-height: 22px;
 box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.3);
+cursor: pointer;
 }
 .launguage-div .btn-eng{
   background-color: var(--text-color);
