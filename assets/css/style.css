@@ -91,37 +91,36 @@ body{
     padding-top: 260px;
   }
 .launguage-div{
-    background-color: white;
-    border-radius: 30px;
-    padding: 10px 12px 10px 27px;
-    display: flex;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+  text-align: center;
 }
 .launguage-div h3{
     font-size: 34px;
     line-height: 36px;
     font-weight: 400;
     color: var(--text-color);
+    margin-bottom: 20px;
 }
-
 .launguage-div .btn{
-    color: white;
-    border-radius: 20px;
-    padding: 8px 16px;
-    border: none;
-    font-size: 28px;
-    line-height: 28px;
-    font-weight: 500;
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border: none;
+border-radius: 20px;
+width: 100%;
+max-width: 300px;
+margin-top: 10px;
+font-size: 20px;
+line-height: 22px;
+box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.3);
 }
 .launguage-div .btn-eng{
- background-color: var(--text-color);
+  background-color: var(--text-color);
+  color: white;
 }
-.launguage-div .btn-cn{
- background-color: #82aacc;
+.launguage-div .btn-china{
+color: var(--text-color);
+background-color: white;
 }
-
   /* ---instruction-- */
  
   .logo{
@@ -542,11 +541,7 @@ text-align: center;
     bottom: 0;
   }
   
-  .launguage-div .btn{
-    padding: 6px 12px;
-      font-size: 22px;
-      line-height: 24px;
-  }
+  
   .end-content {
     height: 50vh;
     margin-top: 56px;
@@ -568,9 +563,7 @@ text-align: center;
     font-size: 22px;
         line-height: 24px;
   }
-  .launguage-div {
-    gap: 5px;
-  }
+ 
   .huntlist-01-title .title {
     font-size: 20px;
     line-height: 34px;
