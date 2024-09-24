@@ -527,19 +527,19 @@ text-align: center;
 
 }
 @media (max-width:425px){
-  .owl-nav .prev-right {
+  /* .owl-nav .prev-right {
     top: 72%;
   }
   .owl-nav .prev-left{
     top: 72%;
-  }
+  } */
 }
 @media (max-width:399px){
   .container {
     max-width: 353px !important;
   }
   .owl-nav .prev-left ,.owl-nav .prev-right {
-    top: 70%;
+    top: 67%;
 }
 }
 @media (max-width:375px){
