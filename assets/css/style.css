@@ -538,6 +538,9 @@ text-align: center;
   .container {
     max-width: 353px !important;
   }
+  .owl-nav .prev-left ,    .owl-nav .prev-right {
+    top: 70%;
+}
 }
 @media (max-width:375px){
  
