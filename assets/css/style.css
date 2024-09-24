@@ -404,6 +404,7 @@ text-align: center;
   object-fit: cover;
   z-index: 3;
   position: relative;
+  width: 100%;
 }
 .scaneAr-imgdiv .top-left-img ,.arActivation-scaneAr-imgdiv .top-left-img{ 
      position: absolute;
