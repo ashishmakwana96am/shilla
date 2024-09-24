@@ -446,8 +446,18 @@ text-align: center;
   width: 70px;
   height: 70px;
 }
+.back-btn{
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+}
 .back-btn img{
-  width: 70px;
+  width: 17px;
 }
 .claim-prize h3{
   color: white ;
@@ -490,7 +500,7 @@ text-align: center;
 }
 .end-content h3{
   font-size: 34px;
-  line-height: 38px;
+  line-height: 45px;
   font-weight: 500;
   color: var(--text-color);
 }
