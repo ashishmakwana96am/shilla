@@ -544,12 +544,12 @@ text-align: center;
 }
 @media (max-width:375px){
  
-  .owl-nav .prev-right {
+  /* .owl-nav .prev-right {
     top: 69%;
   }
   .owl-nav .prev-left{
     top: 69%;
-  }
+  } */
   .huntlist-sec .title {
     font-size: 36px;
     line-height: 42px;
