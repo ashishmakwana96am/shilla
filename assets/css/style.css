@@ -364,7 +364,9 @@ text-align: center;
   z-index: 1;
   margin: 0 auto;
 }
-
+.chines.slider-btm-title h3{
+  font-weight: 500;
+} 
 
 
 /* ----scaneAr-sec---- */
@@ -439,6 +441,11 @@ text-align: center;
   text-align: center;
   margin-top: 20px;
 }
+.chines.scaneAr-text h3{
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
 .qr-scanner{
   position: absolute;
   top: 46%;
@@ -488,6 +495,11 @@ text-align: center;
 }
 .claim-01-text h4{
   font-weight: 500 ;
+}
+.chines.claim-01-text h4{
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 20px;
 }
 
 /* ---end page--- */
