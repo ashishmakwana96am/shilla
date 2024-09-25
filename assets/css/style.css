@@ -57,7 +57,7 @@ body{
   background-repeat: no-repeat;
   max-width: 430px;
   margin: auto;
-  position: relative;
+  /* position: relative; */
   overflow: hidden;    
 }
 /* --top-img-- */
@@ -594,10 +594,13 @@ color: var(--text-color);
   margin-top: 96px;
 }
 .owl-nav .prev-right ,.owl-nav .prev-left {
-  top: 59%;
+  top: 61%;
 }
 .bottom-img::after{
   height: 90vh;
+}
+.instruction-page.container {
+  gap: 0;
 }
 }
 
