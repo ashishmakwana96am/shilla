@@ -611,6 +611,9 @@ color: var(--text-color);
 .hunt-list-3-page .start-btn {
   margin-top: 50px;
 }
+.hero-sec {
+  padding-top: 65px;
+}
 }
 
 @media (max-width:399px){
