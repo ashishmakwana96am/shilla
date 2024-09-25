@@ -86,6 +86,32 @@ body{
     right: 0;
     top: 268px;
   } 
+
+  /* --tnc popup */
+  .modal-dialog {
+    max-width: 390px;
+  }
+  .modal-content{
+        /* background-image: url('../images/HowToPlay_Bg@4x.png'); */
+        background-color: #fff2c9;
+        border: 5px solid #e5c471;
+        width: 100%;
+        padding: 10px 30px;
+        border-radius: 10px;
+  }
+  /* .modal-body {
+    padding: 0;
+  } */
+  .modal-body h3{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .modal-body{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+  }
   /* ---home page--- */
   .lang-sec{
     padding-top: 260px;
@@ -213,11 +239,11 @@ max-width: 80px;
   /* margin-bottom: 20px; */
 }
   /* ----check box */
- .hero-checkbox .form-check-input:checked,
+ /* .hero-checkbox .form-check-input:checked,
 .hero-checkbox .form-check-input:focus {
   box-shadow: none;
   outline: none;
-}
+} */
  .hero-checkbox .form-check-input {
     width: 18px;
     height: 18px;
@@ -225,9 +251,9 @@ max-width: 80px;
     border: none;
     outline: none;
   }
- .hero-checkbox .form-check-input:checked {
+ /* .hero-checkbox .form-check-input:checked {
     background-color: white;
-  }
+  } */
   .hero-checkbox .form-check-label{
     font-size: 12px;
     line-height: 12px;
