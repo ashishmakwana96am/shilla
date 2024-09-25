@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     mediaDevices.getUserMedia({
         video: { facingMode: { exact: "environment" } }, // Use back camera
-        // video: { facingMode: { ideal: "environment" } }, // Use back camera
         audio: true,
     })
     .then((stream) => {
