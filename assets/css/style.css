@@ -56,15 +56,16 @@ body{
 .common-bg {
   width: 100%;
   min-height: 100vh;
-  background-image: url('../images/Bg_Base@4x.png');
+  background-image: url('../images/bg.png');
   background-repeat: no-repeat;
   max-width: 430px;
   margin: auto;
   position: relative;
+  background-size: 100% 100%;
   overflow: hidden;    
 }
 /* --top-img-- */
-.top-img::after{
+/* .top-img::after{
   position: absolute;
   content: '';
   background-image: url(../images/Bg_TopGold@4x.png);
@@ -73,11 +74,11 @@ body{
   background-repeat: no-repeat;
   background-size: 104% 114%;
   width: 100%;
-}
-.top-img,.bottom-img{
+} */
+/* .top-img,.bottom-img{
   position: relative;
-}
-.bottom-img::after{
+} */
+/* .bottom-img::after{
   position: absolute;
   content: '';
   background-image: url(../images/Bg_BotGold@4x.png);
@@ -88,7 +89,7 @@ body{
   width: 100%;
   right: 0;
   top: 268px;
-} 
+}  */
 
 /* --tnc popup */
 .modal-dialog {
@@ -162,13 +163,13 @@ width: 100%;
 max-width: 80px;
 }
 .home-text{
-  padding-top: 45px;
+  padding-top: 25px;
   text-align: center;
   margin-bottom: 0;
 }
 .home-text img{
   width: 100%;
-  max-width: 250px;
+  max-width: 230px;
 }
 .hero-sec{
   padding-top: 42px;
@@ -256,10 +257,11 @@ outline: none;
 }
 /* .hero-checkbox .form-check-input:checked {
   background-color: white;
-} */
+} */.hero-sec
 .hero-checkbox .form-check-label{
   font-size: 12px;
   line-height: 12px;
+  margin-top: 5px;
   font-weight: 400;
 }
 .hero-checkbox .form-check{
@@ -312,7 +314,7 @@ border: none;
 /* ----huntlist-sec--- */
 
 .huntlist-sec{
-  padding-top: 110px;
+  padding-top: 71px;
 }
 .huntlist-sec .title{
 color: white;
@@ -323,7 +325,7 @@ margin: 0 auto;
 text-align: center;
 }
 .huntlist-01-title{
-margin-top: 120px;
+margin-top: 68px;
 }
 .huntlist-01-title .title{
 color: white;
@@ -459,7 +461,7 @@ height: 465px !important;
 }
 .scaneAr-imgdiv .top-left-img ,.arActivation-scaneAr-imgdiv .top-left-img{ 
    position: absolute;
-   top: -50px;
+   top: -37px;
    right: -10px;
    width: 80px;
    z-index: 4;
@@ -500,10 +502,10 @@ width: 17px;
 .claim-prize h3{
 color: white ;
 width: 100%;
-font-size: 42px;
-line-height: 48px;
+font-size: 38px;
+line-height: 42px;
 text-align: center;
-margin: 82px auto 0;
+margin: 37px auto 0;
 margin-bottom: 10px
 }
 .claim-prize h5{
@@ -512,6 +514,9 @@ text-align: center;
 font-weight: 400;
 font-size: 23px;
 line-height: 25px;
+}
+.claim-btn{
+  margin-top: 20px;
 }
 
 /* ----claim your price */
@@ -557,17 +562,16 @@ color: var(--text-color);
   padding-top: 194px;
 }
 }
-@media (max-width:425px){
+@media (max-width:430px){
   .logo img {
     width: 100%;
     max-width: 66px;
 }
 .bottom-img::after {
-  /* top: 174px; */
   top: 130px;
 }
 .home-text {
-  padding-top: 3px;
+ padding-top: 41px;
   text-align: center;
   margin-bottom: 0;
 }
@@ -576,29 +580,16 @@ color: var(--text-color);
   max-width: 200px;
 }
 .lang-sec {
-  padding-top: 155px;
+  padding-top: 208px;
 }
 .claim-prize h3 {
   font-size: 34px;
   line-height: 40px;
-  margin: 13px auto 0;
 }
 .huntlist-sec .title{
   font-size: 38px;
   line-height: 40px;
 }
-.huntlist-sec {
-  padding-top: 35px;
-}.huntlist-content {
-  margin-top: 126px;
-}
-.huntlist-01-title {
-  margin-top: 15px;
-}
-.huntlist-content {
-  margin-top: 96px;
-}
-
 .bottom-img::after{
   height: 90vh;
 }
@@ -612,18 +603,52 @@ color: var(--text-color);
   margin-top: 50px;
 }
 .hero-sec {
-  padding-top: 65px;
+  padding-top: 178px;
 }
+.scaneAr-sec {
+  padding-top: 57px;
+}
+}
+@media (max-width:412px){
+  .home-text{
+ padding-top: 0;
+  }
+  .hero-sec {
+    padding-top: 120px;
 }
 
+.huntlist-content {
+  margin-top: 137px;
+}
+.claim-prize h3{
+  margin: 0 auto;
+}
+}
 @media (max-width:399px){
+  .claim-prize h3{
+    margin: 37px auto 0;
+  }
+  .claim-price-content h4 {
+    font-size: 18px;
+    line-height: 20px;
+  }
 .container {
   max-width: 353px !important;
 }
-
-
+.huntlist-01-title {
+  margin-top: 42px;
+}
+.end-home-text{
+  padding-top: 31px;
+}
+.home-text {
+  padding-top: 20px;
+}
 }
 @media (max-width:375px){
+  .huntlist-01-title {
+    margin-top: 42px;
+}
 .logo img {
   width: 100%;
   max-width: 58px;
@@ -633,8 +658,9 @@ color: var(--text-color);
 top: 157px;
 }
 .lang-sec {
-padding-top: 135px;
+  padding-top: 192px;
 }
+
 .home-text img {
 width: 100%;
 max-width: 187px;
@@ -642,7 +668,6 @@ max-width: 187px;
 .top-img::after {
 height: 15vh;
 }
-
 
 .huntlist-sec .title {
   font-size: 36px;
@@ -656,18 +681,18 @@ height: 15vh;
   max-width: 300px !important;
 } 
 
-
 .bottom-img.custm-index img {
   bottom: 0;
 }
-
-
 .end-content {
   height: 50vh;
   margin-top: 56px;
 }
 .home-text {
-  padding-top: 14px;
+  padding-top: 4px;
+}
+.home-text.instruction-home-text{
+  padding-top: 40px;
 }
 .huntlist-01-title .title {
   font-size: 23px;
@@ -678,6 +703,13 @@ height: 15vh;
 }
 .scanner-scan{
   height: 475px !important;
+}
+.play-list li h3 {
+  font-size: 14px;
+  line-height: 16px;
+}
+.play-list li{
+  margin-bottom: 5px;
 }
 }
 
@@ -695,7 +727,7 @@ height: 15vh;
   width: 20px;
 }
 .end-content h3 {
-font-size: 25px;
+font-size: 24px;
 line-height: 31px;
 font-weight: 500; 
 }
@@ -710,7 +742,7 @@ top: 157px;
 height: 87vh;
 }
 .lang-sec {
-padding-top: 130px;
+  padding-top: 174px;
 }
 .container{
 max-width: 277px !important;
@@ -722,6 +754,16 @@ font-size: 13px;
 font-size: 24px;
 line-height: 26px;
 }
-
+.scaneAr-imgdiv .top-left-img, .arActivation-scaneAr-imgdiv .top-left-img{
+  top: -40px;
+  width: 66px;
+}
+.claim-prize h5{
+  font-size: 20px;
+  line-height: 24px;
+}
+.end-home-text{
+  padding-top: 31px;
+}
 }
 
